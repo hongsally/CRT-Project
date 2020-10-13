@@ -10,7 +10,7 @@ while(runprogram):
    print(f"Your score: {user_score}")
    print(f"Enemies' score: {game_score}")
    if user == ran:
-        print("It is a tie")
+       print("It is a tie")
     elif user == "trash" and game == "recylce":
         print("You lose")
         game_score += 1
@@ -32,7 +32,7 @@ while(runprogram):
     else:
         user = input("trash compost or recycle: ")
     print(f"Your score: {user_score}")
-    print(f"Enemies' score: {game_score}")
-    again = input("Would you like to play again? ")
-    if again == "no":
+   print(f"Enemies' score: {game_score}")
+   again = input("Would you like to play again? ")
+   if again == "no":
        runprogram = False 
